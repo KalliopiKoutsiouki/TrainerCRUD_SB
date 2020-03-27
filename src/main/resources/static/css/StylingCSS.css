@@ -1,0 +1,325 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+  .topnav { 
+     
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        position: relative;     
+  }
+
+  #nav {
+   
+      letter-spacing: 3px;
+      padding-left:0%;
+      display:center;
+      text-align:center;
+      list-style-type: none;
+  }
+
+  .topnav a {  
+      background-color: black;
+      text-align: center;
+      padding: 30px 30px;
+      font-family: fantasy;
+      font-size: 25px;
+      font-variant: small-caps;
+      text-decoration: none;
+      color:white;
+  }
+
+   #nav li {     
+       text-align: center;
+       display:inline-block;
+   }
+
+   .more {
+       text-align: center;
+       list-style-type: none;
+   }
+   .more li {
+    text-align: center;
+    display:inline-block;
+   }
+  
+   .topnav a:hover {
+       color:rgb(240,41,46);
+   }
+
+   .main {
+      margin-left:0;
+       text-align: left;
+   }
+
+   .headers {
+    margin-top: 30px;
+    margin-left: 100px;
+    float:left;
+    height: 100%;
+    width: auto;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-small;
+   }
+
+   .banner {
+       height: 600px;
+       margin-top: 20px;
+       background-image: url(crowd.png);
+       text-align: center;
+       
+   }
+
+   .letters {
+       padding-top: 70px; 
+   }
+
+   .white {
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       color:rgb(22, 19, 19);
+       font-variant: small-caps;
+       font-weight: lighter;
+       font-size: 30px;
+   }
+
+   .clear {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-size: 40px;
+    color:rgb(19, 17, 17);
+    font-variant: small-caps;
+    font-weight: lighter;
+   }
+
+   .topBanner {
+       text-align: center;
+       letter-spacing: 3px;
+       font-variant: small-caps;
+       color: rgb(0, 0, 0);
+       font-size: 50px;
+       font-family: sans-serif;
+       background-color: cadetblue;
+       font-weight: 700;
+       padding-bottom: 10px;
+    }
+
+
+    #logo {
+        height: 70px; 
+        width: 70px; 
+        margin-top: 20px;
+    }
+
+    /* COURSES TABLES */
+    
+        table.tableCourses {
+          width: 100%;
+          background-color: rgb(255, 255, 255);
+          border-collapse: collapse;
+          border-width: 2px;
+          border-color: #408080;
+          border-style: hidden;         
+           color: #000000;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          
+          
+        }
+        
+        table.tableCourses td, table.tableCourses th {
+          border-width: 2px;
+          border-color: #408080;
+          border-style: groove;
+          padding: 3px;
+          text-align: center;
+        }
+        
+        table.tableCourses thead {
+          background-color: rgb(255, 255, 255);
+          line-height: 40px;
+          color: rgb(0, 0, 0);
+          font-variant:small-caps;
+          font-size: 20px;
+        }
+
+        /* TRAINERS TABLES */
+
+        table.tableTrainers {
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border-collapse: collapse;
+            border-width: 2px;
+            border-color: rgb(80, 105, 80);
+            border-style: hidden;         
+             color: #000000;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+            
+          }
+          
+          table.tableTrainers td, table.tableTrainers th {
+            border-width: 2px;
+            border-color: rgb(80, 105, 80);
+            border-style: groove;
+            padding: 3px;
+            
+            text-align: center;
+          }
+          
+          table.tableTrainers thead {
+            background-color: rgb(255, 255, 255);
+            line-height: 40px;
+            color: rgb(0, 0, 0);
+            font-variant:small-caps;
+            font-size: 20px;
+            
+          }
+
+          /* TABLE ASSIGNMENTS */
+
+          table.tableAssignments {
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border-collapse: collapse;
+            border-width: 2px;
+            border-color: rgb(105, 80, 104);
+            border-style: hidden;         
+             color: #000000;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+            
+          }
+          
+          table.tableAssignments td, table.tableAssignments th {
+            border-width: 2px;
+            border-color: rgb(105, 80, 104);
+            border-style: groove;
+            padding: 3px;
+            text-align: center;
+          }
+          
+          table.tableAssignments thead {
+            background-color: rgb(255, 255, 255);
+            line-height: 40px;
+            color: rgb(0, 0, 0);
+            font-variant:small-caps;
+            font-size: 20px;
+            
+          }
+
+          /* STUDENTS TABLES */
+
+          table.tableStudents {
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            border-collapse: collapse;
+            border-width: 2px;
+            border-color: rgb(192, 143, 53);
+            border-style: hidden;         
+             color: #000000;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+            
+          }
+          
+          table.tableStudents td, table.tableStudents th {
+            border-width: 2px;
+            border-color: rgb(192, 143, 53);
+            border-style: groove;
+            padding: 3px;
+            
+            text-align: center;
+          }
+          
+          table.tableStudents thead {
+            background-color: rgb(255, 255, 255);
+            line-height: 40px;
+            color: rgb(0, 0, 0);
+            font-variant:small-caps;
+            font-size: 20px;
+          }
+  
+        .tableButtons {
+            background-color: cadetblue;
+            border: none;
+            color: white;
+            padding: 8px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            font-variant: small-caps;
+            
+            list-style-type: none;
+          }
+          
+          .more a {
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+          }
+          
+        .footer {
+         
+          margin-top: 50px;
+          height:100px;
+          background-image: url(notes.jpg);
+          background-repeat: repeat-x;
+          background-size: 500px;
+          opacity: 0.4;
+          
+        }
+        
+       /* FORMS:  */
+
+       .Forms td {
+         font-weight: 500;
+         width: 100px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         color: rgb(74, 83, 92);
+        }
+
+        .Forms tr {
+          line-height: 30px;
+        }
+
+        fieldset {
+          width: fit-content;
+          border-radius: 10px;
+        }
+
+        legend {
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+          font-variant: small-caps;
+          font-size: 25px;
+          color: lightslategray;
+        }
+
+        .formButtons{
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          background-color: rgb(122, 128, 134);
+          color:white;
+          font-size: 15px;
+          padding:5px 15px;
+          border-style: hidden;
+          display: inline-block;
+          margin-right:5px;
+          float: right;
+          
+        }
+
+        .formButtons:hover{
+          background-color: limegreen;
+        }
+        
+        .tableButtons:hover {
+            opacity: 0.5;
+        }
