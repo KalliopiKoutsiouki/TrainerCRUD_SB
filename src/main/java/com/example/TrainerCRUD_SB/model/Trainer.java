@@ -15,6 +15,7 @@ import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -42,16 +43,19 @@ public class Trainer implements Serializable {
     private Integer trainerId;
     @Basic(optional = false)
     @NotNull
+//     @NotBlank(message = "Subject is mandatory")
     @Size(min = 1, max = 30)
     @Column(name = "FIRST_NAME")
     private String firstName;
     @Basic(optional = false)
     @NotNull
+//    @NotBlank(message = "Subject is mandatory")
     @Size(min = 1, max = 30)
     @Column(name = "LAST_NAME")
     private String lastName;
     @Basic(optional = false)
     @NotNull
+//    @NotBlank(message = "Subject is mandatory")
     @Size(min = 1, max = 45)
     @Column(name = "SUBJECT")
     private String subject;

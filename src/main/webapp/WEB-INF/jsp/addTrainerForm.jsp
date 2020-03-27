@@ -22,16 +22,22 @@
             <legend> Add a trainer</legend>
             <table class="Forms">
                 <tr>
+                        <td><form:input path="trainerId" type="hidden"/></td>
+                </tr>
+                <tr>
                     <td><form:label path="firstName">First name: </form:label></td>
                     <td><form:input path="firstName"/></td>
+                    <td><form:errors path="firstName"/></td>
                 </tr>
                 <tr>
                    <td><form:label path="lastName">Last name: </form:label></td>
                     <td><form:input path="lastName"/></td>
+                    <td><form:errors path="lastName"/></td>
                 </tr>
                 <tr>
                      <td><form:label path="subject">Subject: </form:label></td>
                     <td><form:input path="subject"/></td>
+                    <td><form:errors path="subject"/></td>
                 </tr >
                 </table>
 
